@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store data to sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-mcq">
+            <pre><textarea name="mcq-area" id="input" cols="50" rows="10"></textarea></pre>
+            <button id="add" onclick="getData()">Add</button>
+        </div>
+
+        <div class="list-item">
+            <h3>Select the Correct Answer</h3>
+            <ul id="list-data"> 
+                <!-- <li>My Question</li>
+                <li>My Question</li> -->
+            </ul>
+        </div>
+        <div class="mcqs">
+            <form id="all-input">
+              <p>Question: <input type="text" name="question" placeholder="question"></p> 
+              <p>Option1 : <input type="text" name="op1" placeholder="option1"></p>
+              <p>Option2 : <input type="text" name="op2" placeholder="option2"></p>
+              <p>Option3 : <input type="text" name="op3" placeholder="option3"></p>
+              <p>Option4 : <input type="text" name="op4" placeholder="option4"></p>
+              <p>Answer  : <input type="text" name="answer" placeholder="Answer" id="answer"></p> 
+                <p id="submitting"></p>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
