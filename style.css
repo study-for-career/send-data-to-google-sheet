@@ -14,7 +14,7 @@
 
 textarea#input {
     width: 300px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 ul#list-data {
@@ -51,6 +51,7 @@ input {
     outline: none;
     border: none;
     transition: 0.3s;
+    margin-right: 25px;
 }
 
 input:focus {
